@@ -6,6 +6,7 @@ import 'package:vidaritodo/providers/task_provider.dart';
 import 'package:vidaritodo/screens/home_screen.dart';
 
 void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
   await EasyLocalization.ensureInitialized();
   runApp(
     EasyLocalization(
